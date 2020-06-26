@@ -23,16 +23,20 @@ const SignUp = ({ history }) => {
 	if (currentUser) return <Redirect to="/" />;
 
 	return (
-		<div className="LogIn">
-			<h1>Log In</h1>
-			<form onSubmit={handleLogin}>
-				<label>
-					Email<input name="email" type="email" placeholder="Email" />
+		<div className="login">
+			<h1 className="title">Log In</h1>
+			<form className="form" onSubmit={handleLogin}>
+				<label className="formInput">
+					<span className="formLabel">Email</span>
+					<input name="email" type="email" placeholder="Email" />
 				</label>
-				<label>
-					Password<input name="password" type="password" placeholder="Password" />
+				<label className="formInput">
+					<span className="formLabel">Password</span>
+					<input name="password" type="password" placeholder="Password" />
 				</label>
-				<button type="submit">Sign Up</button>
+				<button className="formBtn" type="submit">
+					Sign Up
+				</button>
 			</form>
 		</div>
 	);

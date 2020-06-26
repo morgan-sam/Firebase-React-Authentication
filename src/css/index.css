@@ -1,0 +1,42 @@
+.App {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.login {
+	width: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.formInput {
+	margin: 0.4rem 0;
+}
+.formLabel {
+	margin-right: 0.4rem;
+}
+
+.formBtn {
+	margin: 0.4rem 0;
+	width: fit-content;
+}
+
+.login .title {
+	text-decoration: underline;
+}

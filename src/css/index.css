@@ -26,6 +26,7 @@
 	border: 1rem solid #eee;
 	border-radius: 100%;
 	background-color: #f7f7f7;
+	padding: 2rem;
 }
 
 .accountInput.signUp {
@@ -50,7 +51,7 @@
 }
 
 .formBtn {
-	margin: 1rem;
+	margin: 2rem 1rem 1rem 1rem;
 	width: fit-content;
 	border: 3px solid rgb(160, 160, 160);
 	padding: 7px 10px;
@@ -63,11 +64,12 @@
 .title {
 	font-style: italic;
 	color: #666;
+	margin: 2rem;
 }
 
 .accountInputLabel {
 	font-size: 0.8rem;
-	padding: 1rem;
+	padding: 1rem 0 2.5rem 0;
 }
 
 .home {

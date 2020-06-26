@@ -83,10 +83,20 @@
 	background-color: #f6f1ea;
 }
 
+.home .title {
+	margin-top: 4rem;
+}
+
+.homeImage {
+	height: 300px;
+	width: 300px;
+	margin: 2rem;
+}
+
 .btnContainer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding: 2rem;
+	margin: 1rem 0 3rem 0;
 }

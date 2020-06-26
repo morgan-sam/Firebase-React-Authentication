@@ -1,7 +1,7 @@
 import React, { useCallback, useContext } from 'react';
 import { withRouter, Redirect } from 'react-router';
 import app from 'config/firebase';
-import { AuthContext, AuthProvider } from 'config/auth';
+import { AuthContext } from 'config/auth';
 import Form from 'components/Form';
 
 const SignUp = ({ history }) => {

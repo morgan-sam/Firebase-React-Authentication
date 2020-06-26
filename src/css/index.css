@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 
-.login {
+.accountInput {
 	width: 20rem;
 	height: 20rem;
 	display: flex;

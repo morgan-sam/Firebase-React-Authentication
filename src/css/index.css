@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+* {
+	font-family: 'ABeeZee', sans-serif;
+}
+
 .App {
 	height: 100vh;
 	width: 100vw;
@@ -13,10 +18,14 @@
 
 .login {
 	width: 20rem;
+	height: 20rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	border: 1rem solid #eee;
+	border-radius: 100%;
+	background-color: #f7f7f7;
 }
 
 .form {
@@ -26,17 +35,25 @@
 	justify-content: center;
 }
 .formInput {
-	margin: 0.4rem 0;
+	margin: 0.6rem 0;
 }
 .formLabel {
 	margin-right: 0.4rem;
+	color: #888;
 }
 
 .formBtn {
-	margin: 0.4rem 0;
+	margin: 1rem;
 	width: fit-content;
+	border: 3px solid rgb(160, 160, 160);
+	padding: 7px 10px;
+	background-color: rgb(190, 190, 190);
+	color: white;
+	border-radius: 1rem;
+	font-size: 1rem;
 }
 
 .login .title {
-	text-decoration: underline;
+	font-style: italic;
+	color: #666;
 }

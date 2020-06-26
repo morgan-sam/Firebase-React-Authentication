@@ -23,8 +23,8 @@ const SignUp = ({ history }) => {
 	if (currentUser) return <Redirect to="/" />;
 
 	return (
-		<div>
-			<h1>Sign Up</h1>
+		<div className="LogIn">
+			<h1>Log In</h1>
 			<form onSubmit={handleLogin}>
 				<label>
 					Email<input name="email" type="email" placeholder="Email" />

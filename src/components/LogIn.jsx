@@ -2,6 +2,7 @@ import React, { useCallback, useContext } from 'react';
 import { withRouter, Redirect } from 'react-router';
 import app from 'config/firebase';
 import { AuthContext, AuthProvider } from 'config/auth';
+import Form from 'components/Form';
 
 const SignUp = ({ history }) => {
 	const handleLogin = useCallback(
@@ -25,19 +26,7 @@ const SignUp = ({ history }) => {
 	return (
 		<div className="accountInput">
 			<h1 className="title">Log In</h1>
-			<form className="form" onSubmit={handleLogin}>
-				<label className="formInput">
-					<span className="formLabel">Email</span>
-					<input name="email" type="email" placeholder="Email" />
-				</label>
-				<label className="formInput">
-					<span className="formLabel">Password</span>
-					<input name="password" type="password" placeholder="Password" />
-				</label>
-				<button className="formBtn" type="submit">
-					Log In
-				</button>
-			</form>
+			<Form onSubmit={handleLogin} inputs={[ 'email', 'password' ]} submitText={'Log In'} />
 		</div>
 	);
 };

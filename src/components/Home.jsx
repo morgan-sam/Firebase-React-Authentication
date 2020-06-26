@@ -16,8 +16,14 @@ const Home = () => {
 		<div className="home">
 			<h1 className="title">Home</h1>
 			<img style={{ height: '300px', width: '200px', margin: '1rem' }} src={img} />
-			<button onClick={() => newImage()}>New Image</button>
-			<button onClick={() => app.auth().signOut()}>Sign Out</button>
+			<div className="btnContainer">
+				<button className="formBtn" onClick={() => newImage()}>
+					New Image
+				</button>
+				<button className="formBtn" onClick={() => app.auth().signOut()}>
+					Sign Out
+				</button>
+			</div>
 		</div>
 	);
 };

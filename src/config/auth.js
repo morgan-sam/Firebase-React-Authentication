@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Loading from 'components/Loading';
 import app from 'config/firebase';
 
 export const AuthContext = React.createContext();
@@ -14,13 +15,6 @@ export const AuthProvider = ({ children }) => {
 			}),
 		[]
 	);
-	if (loading)
-		return (
-			<div className="App">
-				<div className="accountInput">
-					<h2 className="title">Loading...</h2>
-				</div>
-			</div>
-		);
+	if (loading) return <Loading />;
 	else return <AuthContext.Provider value={{ currentUser }}>{children}</AuthContext.Provider>;
 };

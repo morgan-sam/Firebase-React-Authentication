@@ -73,12 +73,12 @@
 .home {
 	height: 50vh;
 	width: 50vw;
-	border: 3px solid rgb(216, 216, 216);
-	border-radius: 10rem;
+	border: 3px solid #e2dcd3;
+	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 3rem 3rem #ebe7e1;
+	box-shadow: 20px 20px #ebe7e1;
 	background-color: #f6f1ea;
 }

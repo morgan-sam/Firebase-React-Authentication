@@ -3,7 +3,7 @@
 	font-family: 'ABeeZee', sans-serif;
 }
 
-.App {
+.app {
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
@@ -26,6 +26,13 @@
 	border: 1rem solid #eee;
 	border-radius: 100%;
 	background-color: #f7f7f7;
+}
+
+.accountInput.signUp {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQImWP4+vXrfwYogLO/fv36H1kCVQBdCwAb6B7x6d+KXQAAAABJRU5ErkJggg==)
+		repeat;
+
+	background-size: 0.5vw 1vh;
 }
 
 .form {
@@ -58,7 +65,20 @@
 	color: #666;
 }
 
-.signUpLabel {
+.accountInputLabel {
 	font-size: 0.8rem;
 	padding: 1rem;
+}
+
+.home {
+	height: 50vh;
+	width: 50vw;
+	border: 3px solid rgb(216, 216, 216);
+	border-radius: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 3rem 3rem #ebe7e1;
+	background-color: #f6f1ea;
 }

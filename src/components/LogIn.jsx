@@ -27,7 +27,7 @@ const SignUp = ({ history }) => {
 		<div className="accountInput">
 			<h1 className="title">Log In</h1>
 			<Form onSubmit={handleLogin} inputs={[ 'email', 'password' ]} submitText={'Log In'} />
-			<div className="signUpLabel">
+			<div className="accountInputLabel">
 				New here? <a href="/signup">Sign Up</a>
 			</div>
 		</div>

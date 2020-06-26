@@ -3,8 +3,8 @@ import app from 'config/firebase';
 
 const Home = () => {
 	return (
-		<div className="Home">
-			<h1>Home</h1>
+		<div className="home">
+			<h1 className="title">Home</h1>
 			<button onClick={() => app.auth().signOut()}>Sign Out</button>
 		</div>
 	);

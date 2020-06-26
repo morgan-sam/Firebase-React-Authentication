@@ -19,9 +19,12 @@ const SignUp = ({ history }) => {
 	);
 
 	return (
-		<div className="accountInput">
+		<div className="accountInput signUp">
 			<h1 className="title">Sign Up</h1>
 			<Form onSubmit={handleSignUp} inputs={[ 'email', 'password' ]} submitText={'Sign Up'} />
+			<div className="accountInputLabel">
+				Regular here? <a href="/login">Log In</a>
+			</div>
 		</div>
 	);
 };
